@@ -1,1 +1,108 @@
-/* Add your CSS here */
+body {
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6a6969;
+  width: 1000px;
+  margin: auto;
+}
+h1 {
+  font-size: 20px;
+}
+p {
+  margin: 30px 0;
+}
+
+.nav {
+  height: 72px;
+  background: #fffabe url("assets/images/logo.png") no-repeat 5% 50%;
+  text-align: center;
+}
+.nav ul {
+  padding: 28px 0 0 200px;
+}
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 45px;
+  font-size: 16px;
+  color: #515151;
+}
+.nav ul li:hover {
+  color: d42551;
+}
+.header img {
+  height: 400px;
+}
+
+.main_content {
+  padding-top: 60px;
+}
+.column1 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 120px;
+}
+.column2 {
+  display: inline-block;
+  width: 75%;
+  margin-left: 50px;
+  line-height: 1.8;
+}
+.table_flavor {
+  margin-top: 60px;
+  margin-right: 20px;
+  width: 100%;
+  height: 140px;
+  border-collapse: collapse;
+}
+.table_flavor tr {
+  height: 33px;
+  border-collapse: collapse;
+}
+.table_flavor tr td {
+  width: 126px;
+  background-color: #fffabe;
+  border-left: 15px solid white;
+  border-right: 15px solid white;
+  padding-left: 10px;
+}
+.tr_flavor td {
+  font-size: 12px;
+}
+.tr_flavor td img {
+  float: right;
+  margin-right: 10px;
+}
+
+.footer {
+  width: 1000px;
+  height: 80px;
+  background-color: #df5277;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.footer_a {
+  display: inline-block;
+  width: 31%;
+  margin-top: 15px;
+  background: url("assets/images/mail.png") no-repeat 20% 0;
+}
+.footer_b {
+  display: inline-block;
+  width: 32%;
+  background: url("assets/images/phone.png") no-repeat 30% 0;
+}
+.footer_c {
+  display: inline-block;
+  width: 31%;
+}
+.footer_c img {
+  margin-left: 20px;
+}
+.footer_d {
+  margin-top: 15px;
+  clear: both;
+}
