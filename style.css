@@ -8,11 +8,16 @@ body {
 }
 h1 {
   font-size: 20px;
+  font-weight: normal;
 }
 p {
   margin: 30px 0;
 }
+a:link {
+  text-decoration: none;
+}
 
+/* header styles */
 .nav {
   height: 72px;
   background: #fffabe url("assets/images/logo.png") no-repeat 5% 50%;
@@ -29,14 +34,48 @@ p {
   color: #515151;
 }
 .nav ul li:hover {
-  color: d42551;
+  color: #d42551;
 }
-.header img {
+header img {
   height: 400px;
 }
 
+/* footer styles */
+footer {
+  width: 1000px;
+  height: 80px;
+  background-color: #df5277;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.footer_a {
+  display: inline-block;
+  width: 31%;
+  margin-top: 15px;
+  background: url("assets/images/mail.png") no-repeat 20% 0;
+}
+.footer_b {
+  display: inline-block;
+  width: 32%;
+  background: url("assets/images/phone.png") no-repeat 30% 0;
+}
+.footer_c {
+  display: inline-block;
+  width: 31%;
+}
+.footer_c img {
+  margin-left: 20px;
+}
+.footer_d {
+  margin-top: 15px;
+  clear: both;
+}
+
+/* welcome page content styles */
 .main_content {
-  padding-top: 60px;
+  padding-top: 70px;
 }
 .column1 {
   display: inline-block;
@@ -75,34 +114,14 @@ p {
   margin-right: 10px;
 }
 
-.footer {
-  width: 1000px;
-  height: 80px;
-  background-color: #df5277;
-  margin-top: 40px;
-  color: white;
-  text-align: center;
-  font-size: 12px;
+/* our macarons page content styles */
+.om_content {
+  width: 93%;
+  margin: 70px auto 90px auto;
 }
-.footer_a {
-  display: inline-block;
-  width: 31%;
-  margin-top: 15px;
-  background: url("assets/images/mail.png") no-repeat 20% 0;
+.om2 {
+  width: 100%;
+  height: 300px;
+  background: url("assets/images/our-macarons-background.png") no-repeat 0 75%;
 }
-.footer_b {
-  display: inline-block;
-  width: 32%;
-  background: url("assets/images/phone.png") no-repeat 30% 0;
-}
-.footer_c {
-  display: inline-block;
-  width: 31%;
-}
-.footer_c img {
-  margin-left: 20px;
-}
-.footer_d {
-  margin-top: 15px;
-  clear: both;
-}
+
