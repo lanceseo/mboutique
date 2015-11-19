@@ -73,7 +73,7 @@ footer {
   clear: both;
 }
 
-/* welcome page content styles */
+/*** welcome/index page content styles ***/
 .main_content {
   padding-top: 70px;
 }
@@ -114,7 +114,7 @@ footer {
   margin-right: 10px;
 }
 
-/* our macarons page content styles */
+/*** our_macarons page content styles ***/
 .om_content {
   width: 93%;
   margin: 70px auto 90px auto;
@@ -125,3 +125,18 @@ footer {
   background: url("assets/images/our-macarons-background.png") no-repeat 0 75%;
 }
 
+/*** gift_parties page content styles ***/
+.gp2 {
+    height: 400px;
+    background: url("assets/images/gifts-parties-background.png") no-repeat right bottom;
+}
+.gp2 p:nth-child(2) {
+    margin-bottom: 0;
+}
+.gp2 h1:nth-child(4) {
+    margin-top: 50px;
+}
+.gp2 p:nth-child(5) {
+    width: 55%;
+    margin-bottom: 0;
+}
