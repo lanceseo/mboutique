@@ -37,12 +37,12 @@ a:link {
   color: #d42551;
 }
 header img {
+    width: 100%;
   height: 400px;
 }
 
 /* footer styles */
 footer {
-  width: 1000px;
   height: 80px;
   background-color: #df5277;
   margin-top: 40px;
@@ -117,7 +117,7 @@ footer {
 /*** our_macarons page content styles ***/
 .om_content {
   width: 93%;
-  margin: 70px auto 90px auto;
+  margin: 70px auto 90px;
 }
 .om2 {
   width: 100%;
@@ -177,4 +177,101 @@ footer {
 .contact_main form input[type="submit"] {
     width: 155px;
     float: right;
+}
+
+
+/***** Mobile friendly @ smaller than 1000px *****/
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 100%;
+    }
+
+    /* header styles */
+    .nav {
+        background-position: center top;
+    }
+    .nav ul {
+        padding: 0;
+    }
+    .nav ul li {
+        margin-left: 3%;
+        font-size: 0.8em;
+        position: relative;
+        top: 40px;
+    }
+    header img {
+        height:30%;
+    }
+
+    /* footer styles */
+    footer {
+        height: 90px;
+    }
+    .footer_a {
+        width: 165px;
+        margin-top: 10px;
+        text-align: right;
+        background-position: 10% 0;
+    }
+    .footer_b {
+        width: 120px;
+        text-align: right;
+        background-position: 10% 0;
+        margin-left: 2%;
+    }
+    .footer_c {
+        width: 60%;
+        margin-top: 8px;
+    }
+    .footer_d {
+        margin-top: 8px;
+    }
+
+    /*** welcome/index page content ***/
+    .main_content {
+        padding-top: 15px;
+    }
+    .column1 {
+        display: none;
+    }
+    .table_flavor {
+        margin: 15px 0 0 0;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .table_flavor tr td {
+        border: 1px;
+    }
+    .tr_flavor td {
+        font-size: 0.7em;
+    }
+
+    /*** our_macarons page content ***/
+    .om_content {
+        margin: 40px auto;
+    }
+    .om2 {
+        background: none;
+    }
+
+    /*** gifts_parties page content ***/
+    .gp_content {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .gp2 {
+        background: none;
+    }
+
+    /*** contact page content ***/
+    .contact_main {
+        margin: 20px auto;
+        padding-left: 8%;
+    }
+    .contact_main form {
+        margin: 0;
+    }
+    .contact_main img {
+        display: none;
+    }
 }
